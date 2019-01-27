@@ -31,9 +31,10 @@ body {
     display: none;
 }
 
-.js-form input {
+input {
     width: 300px;
-    height: 25px;    
+    height: 25px;   
+    margin: 5px; 
 }
 
 .showing {

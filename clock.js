@@ -9,8 +9,8 @@ function getDate(){
     const month = date.getMonth() +1;
     const dateOfMonth = date.getDate();
     const day = date.getDay();
-    const dayArr = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'];
-    const dayOfWeek = dayArr[`${day}`-1];
+    const dayArr = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
+    const dayOfWeek = dayArr[`${day}`];
     dateTitle.innerText = `${year}-${month<10? `0${month}`:`${month}`}-${dateOfMonth<10? `0${dateOfMonth}`: `${dateOfMonth}`} ${dayOfWeek}`
 }
 
